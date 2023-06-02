@@ -24,7 +24,7 @@
 #bottom{
     /* border: 2px solid brown; */
     background-color: #00252e;
-    height: 80vh;
+    height: 70vh;
 }
 #head{
     display: flex;
@@ -273,4 +273,117 @@
 }
 #startb:hover{
     background-color: #ff7ccf;
+}
+#leftb{
+    /* border: 2px solid red; */
+    width: 26.25%;
+    margin-left: 7.5%;
+    margin-top: 12.5%;
+    position: absolute;
+}
+#blogo{
+    /* background-color: white; */
+    filter: invert(100%) saturate(0%);
+}
+#loc{
+    margin-top: 5%;
+    display: flex;
+}
+#loci{
+    color: white;
+    height: 25px;
+    display: block;
+}
+#locd{
+    color: white;
+    margin-left: 5%;
+    justify-content: left;
+    line-height: 20px;
+}
+#num{
+    margin-top: 5%;
+    /* display: flex; */
+}
+#numi{
+    color: white;
+    height: 25px;
+    filter: invert(100%);
+    /* display: block; */
+
+}
+#numd{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5%;
+    /* justify-content: left; */
+}
+#mail{
+    margin-top: 5%;
+}
+#maili{
+    /* color: white; */
+    /* display: block; */
+}
+#maild{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    
+    font-size: 20px;
+    /* font-weight: 100; */
+    margin-left: 5%;
+
+}
+#midb{
+    /* border: 2px solid red; */
+    width: 20.25%;
+    margin-left: 45%;
+    margin-top: 15.5%;
+    position: absolute;
+    height: 25vh;
+    
+}
+#llb{
+    /* border: 2px solid blue; */
+    height: 25vh;
+    width: 50%;
+    
+
+}
+#rlb{
+
+}
+.ex{
+    text-decoration: none;
+    color: white;
+    /* display: block; */
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;    
+}
+#rb{
+    /* border: 2px solid red; */
+    margin-left:75% ;
+    height: 25vh;
+    width: 20%;
+    position: absolute;
+    margin-top: 15%;
+}
+#rb img{
+    filter: invert(100%);
+    scale: 110%;
+}
+#copyright{
+    color: white;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 30%;
+
 }
